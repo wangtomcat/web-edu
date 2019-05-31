@@ -1,0 +1,157 @@
+@font-face {
+    font-family: 'myFont';
+    src: url('TTENuoJ_0.ttf') format('truetype');
+}
+
+* {
+    font-family: "myFont";
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: calc(100vw/7.5);
+}
+
+.box {
+    width: 80%;
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+    margin-top: 0.1rem;
+}
+
+.box img {
+    width: 100%;
+    vertical-align: top;
+}
+
+.start-page,
+.game-page,
+.end-page {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    color: #fff;
+    text-align: center;
+}
+
+.start-page {
+    padding: 1rem;
+}
+
+.game-page {
+    padding: 0.5rem 0.6rem;
+}
+
+.start-page .title {
+    text-align: center;
+    font-size: 0.4rem;
+    font-family: "myFont";
+    letter-spacing: 0.05rem;
+}
+
+.start-page .start,
+.game-page .ok,
+.end-page .next {
+    outline: medium;
+    border: 0;
+    text-align: center;
+    font-size: 0.20rem;
+    font-family: "myFont";
+    margin: auto;
+    background: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.start-page .start {
+    margin-top: 0.8rem;
+}
+
+.game-page .ok {
+    margin-top: 0.4rem;
+    display: block;
+}
+
+.tishi {
+    overflow: hidden;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.tishi p {
+    font-size: 0.16rem;
+    text-align: left;
+}
+
+.ti-show {
+    font-family: "myFont";
+    font-size: 0.6rem;
+    text-align: center;
+    margin-top: 0.4rem;
+}
+
+.ti-show input {
+    font-family: "myFont";
+    border: 0;
+    border-bottom: 0.02rem solid #fff;
+    font-size: 0.6rem;
+    width: 1rem;
+    background: none;
+    color: #fff;
+    text-align: center;
+    outline: medium;
+    margin-left: -0.32em;
+}
+
+.game-page small {
+    display: block;
+    text-align: center;
+    font-size: 0.1rem;
+    margin-top: 0.05rem;
+}
+
+.end-page p {
+    font-size: 0.16rem;
+    text-align: left;
+    text-align: center;
+}
+
+.end-page .title {
+    text-align: center;
+    font-size: 0.4rem;
+    font-family: "myFont";
+    letter-spacing: 0.05rem;
+    margin-top: 1rem;
+}
+
+.selectBox {
+    padding: 0.3rem 0.55rem;
+}
+
+.selectBox button {
+    background: none;
+    outline: none;
+    color: #fff;
+    font-size: 0.2rem;
+    float: left;
+    width: 50%;
+    text-align: left;
+    margin: 0.1rem 0;
+}
+
+.selectBox button span,
+.selectBox button i {
+    cursor: pointer;
+}
